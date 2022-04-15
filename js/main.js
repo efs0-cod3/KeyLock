@@ -5,11 +5,6 @@ let caps = document.querySelector('#caps')
 
 btn.addEventListener('click', getPass)
 
-
-
-
-
-
 function getPass(){
 	let url;
 	if (num.checked && char.checked  && caps.checked ){
@@ -33,7 +28,7 @@ function getPass(){
 	fetch(url)
 .then((res)=> res.json())
 .then((data) => {
-	console.log(data)
+
 	document.querySelector('.passField').innerText = `Generating your password...`
 	setTimeout( generating, 1000);
 	function generating () {
