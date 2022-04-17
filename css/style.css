@@ -11,7 +11,6 @@ body {
      color: white;
      align-items: center;
      height: 100vh;
-
 }
 
 .title {
@@ -22,13 +21,12 @@ body {
 
 h1 {
      text-transform: uppercase;
-
 }
 
 main {
      display: flex;
      flex-direction: column;
-     width: 15%;
+     width: 30%;
 }
 
 .check {
@@ -56,22 +54,11 @@ button {
      align-items: center;
      font-weight: bold;
      font-size: 25px;
-<<<<<<< HEAD
-
 }
 
-@media all and (max-width:800px){
-     main {
-     width:60%;
-     }
-=======
-     height: 28;
-}
 
-@media all and (max-width:800px){
+@media all and (max-width:980px){
  main {
-     width:60%;
+     width: 60%;
 }
-
 }
->>>>>>> 81b406cf3686d3c165c340489ff1c2fc0cd17590
