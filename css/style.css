@@ -56,5 +56,10 @@ button {
      align-items: center;
      font-weight: bold;
      font-size: 25px;
-     height: 28;
+
 }
+
+@media all and (max-width:800px){
+     main {
+     width:60%;
+     }
